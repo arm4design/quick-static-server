@@ -3,8 +3,8 @@ var path = require('path');
 var express = require('express');
 
 var static = {
-    path: options.staticPath ? options.staticPath : __dirname + '/www',
-    options: options.staticOptions ? options.staticOptions : {},
+    path: options.publicPath ? options.publicPath : __dirname + '/www',
+    options: options.serverOptions ? options.serverOptions : {},
     index: options.index ? options.index : 'index.html'
 };
 

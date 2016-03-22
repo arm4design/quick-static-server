@@ -1,0 +1,39 @@
+{
+  "name": "quick-static-server",
+  "version": "1.0.0",
+  "description": "Express.js based node server for quick static deployments",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/test.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "express",
+    "nodejs",
+    "server",
+    "quick",
+    "static server",
+    "server",
+    "app deployment"
+  ],
+  "author": "Armando Soriano <asoriano.dev@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": ">=4.13.4"
+  },
+  "devDependencies": {
+    "mocha": ">=2.4.5",
+    "chai": ">=3.5.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arm4design/quick-static-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arm4design/quick-static-server/issues"
+  },
+  "homepage": "https://github.com/arm4design/quick-static-server#readme"
+}

@@ -6,9 +6,8 @@ describe('quick-static-server deployment', function(){
         try {
             var server = require('../index.js');
             itRan = true;
-        } catch(e) {
-
-        }
+        } catch(e) {}
+        
         assert.strictEqual(itRan, true, 'server thrown an error while deployment');
     });
 });
